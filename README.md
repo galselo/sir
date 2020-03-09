@@ -1,3 +1,2 @@
-# sir
-vanilla SIR model
+# vanilla SIR model
 !!DO NOT USE FOR SCIENTIFIC/PROFESSIONAL PURPOSES!!
