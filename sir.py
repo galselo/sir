@@ -1,5 +1,5 @@
 # https://scipython.com/book/chapter-8-scipy/additional-examples/the-sir-epidemic-model/
-#https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-andamento-nazionale/dpc-covid19-ita-andamento-nazionale.csv
+# https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-andamento-nazionale/dpc-covid19-ita-andamento-nazionale.csv
 import numpy as np
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
@@ -55,22 +55,23 @@ plot(t, I / 10., lw=2, label='TI (10% infetti)')
 plt.hlines(5e3, 0, max(t))
 
 # plot data
-xdata = np.arange(len(data[5])) + 32
-ydata = data[5]
-plot(xdata, ydata, lw=0, marker="o", label="infetti (data)")
-plot(xdata, data[2], lw=0, marker="x", label="TI (data)")
+xdata = np.arange(len(data[9])) + 33
+ydata = data[9]
+plot(xdata, ydata, lw=0, marker="s", label="infetti (data)", mfc='none')
+plot(xdata, data[2], lw=0, marker="^", label="TI (data)", mfc='none')
+plot(xdata, data[8], lw=0, marker="^", label="morti (data)", mfc='none')
 
 ax.set_xlabel('giorni')
 ax.set_ylabel('individui')
 
 # range
-ax.set_xlim(xmin=20)
-ax.set_ylim(ymin=200)
+ax.set_xlim(xmin=30)
+ax.set_ylim(ymin=150)
 
 ax.xaxis.set_minor_locator(MultipleLocator(1))
 ax.xaxis.set_major_locator(MultipleLocator(10))
 
-legend = ax.legend(loc="best", ncol=2)
+legend = ax.legend(loc="best", ncol=2, fontsize=6)
 
 #plt.show()
 plt.savefig("sir.png")
