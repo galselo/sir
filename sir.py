@@ -101,6 +101,7 @@ plt.hlines(2.8e4, 0, max(t), linestyle=":", color="#888a85", label="28k")
 ymax = 1e9
 plt.vlines(toff+5, 0, ymax, linestyle=":", color="#8ae234")
 plt.vlines(toff+5+9, 0, ymax, linestyle="--", color="#8ae234")
+plt.vlines(xdata[-1], 0, ymax, linestyle="--", color="#8ae234")
 plt.vlines(toff+5+31, 0, ymax, linestyle=":", color="#8ae234")
 plt.vlines(toff+5+61, 0, ymax, linestyle=":", color="#8ae234")
 
