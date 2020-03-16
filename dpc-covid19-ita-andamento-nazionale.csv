@@ -1,4 +1,5 @@
-#data,ricoverati_con_sintomi,terapia_intensiva,totale_ospedalizzati,isolamento_domiciliare,totale_attualmente_positivi,nuovi_attualmente_positivi,dimessi_guariti,deceduti,totale_casi,tamponi
+#data,ricoverati_con_sintomi,terapia_intensiva,totale_ospedalizzati,isolamento_domiciliare,
+#totale_attualmente_positivi,nuovi_attualmente_positivi,dimessi_guariti,deceduti,totale_casi,tamponi
 -5,101,26,127,94,221,221,1,7,229,4324
 -4,114,35,150,162,311,90,1,10,322,8623
 -3,128,36,164,221,385,74,3,12,400,9587
@@ -15,3 +16,9 @@
 8,3557,650,4207,2180,6387,1326,622,366,7375,49937
 9,4316,733,5049,2936,7985,1598,724,463,9172,53826
 10,5038,877,5915,2599,8514,529,1004,631,10149,60761
+11,5838,1028,6866,3724,10590,2076,1045,827,12462,73154
+12,6650,1153,7803,5036,12839,2249,1258,1016,15113,86011
+13,7426,1328,8754,6201,14955,2116,1439,1266,17660,97488
+14,8372,1518,9890,7860,17750,2795,1966,1441,21157,109170
+15,9663,1672,11335,9268,20603,2853,2335,1809,24747,124899
+
